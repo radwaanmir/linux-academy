@@ -8,7 +8,7 @@ pytest = "*"
 pytest-mock = "*"
 
 [packages]
-boto3 = "*"
+pwd = "*"
 
 [requires]
 python_version = "3.8"

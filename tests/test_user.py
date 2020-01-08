@@ -64,7 +64,7 @@ def test_users_sync(mocker):
         user_dict,
         {
             'name': 'jose',
-            'groups', ['wheel'],
+            'groups': ['wheel'],
             'password': password
         }
     ]
@@ -86,7 +86,7 @@ def test_users_sync(mocker):
             '-G',
             'wheel',
             'jose',
-        ])
+        ]),
         mocker.call([
             'userdel',
             '-r',
