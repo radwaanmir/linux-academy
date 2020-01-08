@@ -75,6 +75,7 @@ def test_users_sync(mocker):
         mocker.call([
             'usermod',
             '-p',
+            password,
             '-G',
             'wheel,dev',
             'kevin',
