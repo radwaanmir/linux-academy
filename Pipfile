@@ -9,6 +9,7 @@ pytest-mock = "*"
 
 [packages]
 pwd = "*"
+json= "*"
 
 [requires]
 python_version = "3.8"
